@@ -81,8 +81,8 @@ public:
 	bool flip_horizontally();
 	bool flip_vertically();
 	bool scale(int w, int h);
-	TGAColor get(int x, int y); // vrati boju za dani piksel
-	bool set(int x, int y, TGAColor c); // postavi boju za dani piksel
+	TGAColor get(int x, int y); 
+	bool set(int x, int y, TGAColor c); 
 	~TGAImage();
 	TGAImage & operator =(const TGAImage &img);
 	int get_width();
