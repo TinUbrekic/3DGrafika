@@ -212,19 +212,19 @@ int main()
     draw_triangle(image2, -48, -10, 82, 29, -15, 44, 13, 34, 114, blue);
 
     image2.flip_vertically();
-    image2.write_tga_file("problem3.tga");
+    image2.write_tga_file("zadatak3.tga");
 
     TGAImage image3(width, height, TGAImage::RGB);
 
     draw_triangle_tex(image3, -48, -10, 82, 29, -15, 44, 13, 34, 114, 0, 0, 0, 1, 1, 0, "texture.tga");
 
     image3.flip_vertically();
-    image3.write_tga_file("problem4_1.tga");
+    image3.write_tga_file("zadatak4_a.tga");
 
     TGAImage image4(width, height, TGAImage::RGB);
 
     draw_triangle_tex_corrected(image4, -48, -10, 82, 29, -15, 44, 13, 34, 114, 0, 0, 0, 1, 1, 0, "texture.tga");
 
     image4.flip_vertically();
-    image4.write_tga_file("problem4_2.tga");
+    image4.write_tga_file("zadatak4_b.tga");
 }
